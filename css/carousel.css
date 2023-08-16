@@ -6,20 +6,21 @@
 .carousel-indicators [data-bs-target] {
   background-color: #015AA6 !important;
   width: 30px;
-  height: 20px;
+  height: 10px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 60px !important;
-  width: 60px !important;
+  height: 90px !important;
+  width: 90px !important;
+  margin-top: 100px !important;
 }
 
 .filter-color{
-    filter: invert(21%) sepia(38%) saturate(6500%) hue-rotate(195deg) brightness(97%) contrast(99%);
+    filter: invert(61%) sepia(78%) saturate(6500%) hue-rotate(195deg) brightness(97%) contrast(99%);
 }
 .carousel-inner{
     width: 80%;
-    left: 10%;
+    left: 12.5%;
 }
 
 .carousel-page {
@@ -35,9 +36,10 @@
 }
 
 .card-equipe{
+    background-color: white;
     background-color: rgb(232, 228, 228);
     width: 300px;
-    height: 400px;
+    height: 500px;
     justify-content: center;
 }
 .foto-equipe{
