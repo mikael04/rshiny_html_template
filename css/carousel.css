@@ -1,8 +1,4 @@
-.title-equipe{
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
-}
+/* Carousel items */
 .carousel-indicators [data-bs-target] {
   background-color: #015AA6 !important;
   width: 30px;
@@ -19,45 +15,42 @@
     filter: invert(61%) sepia(78%) saturate(6500%) hue-rotate(195deg) brightness(97%) contrast(99%);
 }
 .carousel-inner{
-    width: 80%;
-    left: 12.5%;
-}
-
-.carousel-page {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
+    height: 430px;
 }
-
-.carousel-page img {
-    width: 200px;
-    height: 200px;
+/* Carousel card */
+.carousel-page {
+    padding-left: 8%;
+    padding-right: 8%;
 }
-
+/* Título do componente */
+.title-equipe{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+/* Tamanho do card (três cards compondo o componente) */
 .card-equipe{
     background-color: white;
     background-color: rgb(232, 228, 228);
-    width: 300px;
-    height: 500px;
+    width: 297px;
+    height: 550px;
     justify-content: center;
 }
-.foto-equipe{
-    height: 60%;
-    width: 90%;
-    padding-left: 10%;
-    background-color: green;
-}
+/* Tamanho da imagem */
+/* Tamanho da foto relativa a página*/
 .foto-membro{
-    width: 100%;
+    width: 70%;
     height: 60%;
 }
-.nome{
-    text-align: center;
+@media (min-width: 1500px){
+    .carousel-inner{
+        height: 450px;
+    }
 }
-.posicao{
-    text-align: center;
+@media (min-width: 2200px){
+    .carousel-inner{
+        height: 600px;
+    }
 }
-.curriculo{
-    text-align: center;
-}
+
